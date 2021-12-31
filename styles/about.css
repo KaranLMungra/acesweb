@@ -11,15 +11,15 @@
 
 .image-container {
     position: relative;
-    width: 50%;
+    width: 45%;
     height: 100%;
-    background-image: url('../assests/images/pic4.jpg')
+    display: inline-block;
 }
 
 .inner-container {
+    display: inline-block;
     position: relative;
     width: 50%;
-    float: right;
     background-color: #0C2D48;
     padding: 150px;
 }
