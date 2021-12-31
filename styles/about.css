@@ -1,0 +1,36 @@
+@import url('/styles/assests.css');
+.about-section {
+    position: relative;
+    width: 100%;
+    background: url('/assests/images/pic4.jpg') no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container {
+    position: relative;
+    width: 50%;
+    float: right;
+    background-color: #0C2D48;
+    padding: 150px;
+}
+
+.inner-container h1 {
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: var(--gy-c3);
+    font-weight: 900;
+}
+
+.text1 {
+    position: relative;
+    width: 100%;
+    font-size: 13px;
+    color: white;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}

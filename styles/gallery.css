@@ -1,0 +1,41 @@
+@import url('assests.css');
+ul {
+    list-style: none;
+    position: relative;
+}
+
+.gallery {
+    position: relative;
+    margin: 3%;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.gallery-ph {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 5px solid var(--gy-c2);
+    box-shadow: 0 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-container {
+    position: relative;
+    padding: 5rem;
+    width: 100%;
+    height: 100%;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    -webkit-animation: flyin 7s linear;
+    -moz-animation: flyin 7s linear;
+    -ms-animation: flyin 7s linear;
+    -o-animation: flyin 7s linear;
+    animation: flyin 7s linear;
+    width: 100%;
+}
+
+.gallery-ph:hover {
+    transform: scale(2, 2);
+    z-index: 1;
+}

@@ -1,0 +1,16 @@
+:root {
+    /* https://htmlcolors.com/palette/2056/grupo-yatra */
+    /*For colors*/
+    --gy-c1: #11202E;
+    --gy-c2: #172C3D;
+    --gy-c3: #F1125B;
+    --gy-c4: #1E8FFF;
+    --gy-c5: #1DB57B;
+    --gy-c6: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}

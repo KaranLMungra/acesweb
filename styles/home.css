@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
+@import url('/styles/animates.css');
+.head-container {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 70%;
+    height: 25%;
+    padding: 1rem;
+}
+
+.desc-container {
+    float: left;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 70%;
+    height: 50%;
+    padding: 1rem;
+}
+
+.img-container {
+    float: left;
+    position: relative;
+    top: 10%;
+    width: 200px;
+    height: 200px;
+}
+
+.img-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.heading {
+    font-size: 4rem;
+    color: var(--gy-c2);
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 1rem;
+}
+
+#nirma {
+    top: 30%;
+}
+
+#aces {
+    top: 60%;
+}

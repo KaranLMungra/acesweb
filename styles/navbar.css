@@ -1,0 +1,16 @@
+@import url('assests.css');
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: relative;
+    background-color: var(--gy-c1);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    border-bottom: 1px solid var(--gy-c3);
+}
