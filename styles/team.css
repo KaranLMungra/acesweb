@@ -1,4 +1,4 @@
-@import url('/style/assests.css');
+@import url('../styles/assests.css');
 .card {
     position: relative;
     width: 15%;
