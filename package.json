@@ -1,0 +1,27 @@
+{
+    "name": "acesweb",
+    "version": "1.0.0",
+    "description": "Aces Club Website",
+    "main": "index.js",
+    "scripts": {
+        "start": "http-server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KaranLMungra/acesweb.git"
+    },
+    "keywords": [
+        "Aces",
+        "Website"
+    ],
+    "author": "Karan Mungra, Sagar Lakhnotra",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/KaranLMungra/acesweb/issues"
+    },
+    "homepage": "https://github.com/KaranLMungra/acesweb#readme",
+    "devDependencies": {
+        "http-server": "^14.0.0"
+    }
+}
