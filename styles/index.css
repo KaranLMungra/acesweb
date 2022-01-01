@@ -12,19 +12,14 @@
 body {
     max-width: 100%;
     overflow-x: hidden;
-    /* -ms-overflow-style: none; */
+    -ms-overflow-style: none;
     /* IE and Edge */
-    /* scrollbar-width: none; */
+    scrollbar-width: none;
 }
 
-
-/* body::-webkit-scrollbar { */
-
-
-/* display: none; */
-
-
-/* } */
+body::-webkit-scrollbar {
+    display: none;
+}
 
 .container {
     position: absolute;
@@ -41,7 +36,11 @@ body {
 }
 
 .navbar-animation {
-    animation: flyintop 2s;
+    -webkit-animation: flyintop 2s linear;
+    -moz-animation: flytop 2s linear;
+    -ms-animation: flytop 2s linear;
+    -o-animation: flytop 2s linear;
+    animation: flyintop 2s linear;
 }
 
 .main-container {

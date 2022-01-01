@@ -2,15 +2,14 @@
 .about-section {
     position: relative;
     width: 100%;
-    /* background: url('../assests/images/pic4.jpg') no-repeat left;
-    background-size: 55%;
-    background-color: #fdfdfd; */
     overflow: hidden;
-    padding: 100px 0;
+    top: 0;
+    /* padding: 100px 0; */
 }
 
 .image-container {
     position: relative;
+    top: 0;
     width: 45%;
     height: 100%;
     display: inline-block;

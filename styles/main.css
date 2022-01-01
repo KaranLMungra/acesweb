@@ -58,25 +58,26 @@
     position: absolute;
     width: 95%;
     height: 100%;
-    -webkit-animation: flyin 6s linear;
-    -moz-animation: flyin 6s linear;
-    -ms-animation: flyin 6s linear;
-    -o-animation: flyin 6s linear;
-    animation: flyin 6s linear;
+    -webkit-animation: flyin 5s linear;
+    -moz-animation: flyin 5s linear;
+    -ms-animation: flyin 5s linear;
+    -o-animation: flyin 5s linear;
+    animation: flyin 5s linear;
 }
 
 .content-container {
     position: relative;
     padding: 2rem;
     width: 100%;
-    height: 70%;
+    height: 75%;
+    margin: 2rem;
     font-family: 'Rubik', sans-serif;
     color: black;
-    -webkit-animation: flyin 7s linear;
-    -moz-animation: flyin 7s linear;
-    -ms-animation: flyin 7s linear;
-    -o-animation: flyin 7s linear;
-    animation: flyin 7s linear;
+    -webkit-animation: flyin 6s linear;
+    -moz-animation: flyin 6s linear;
+    -ms-animation: flyin 6s linear;
+    -o-animation: flyin 6s linear;
+    animation: flyin 6s linear;
 }
 
 
@@ -92,11 +93,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-animation: flyin 7s linear;
-    -moz-animation: flyin 7s linear;
-    -ms-animation: flyin 7s linear;
-    -o-animation: flyin 7s linear;
-    animation: flyin 7s linear;
+    -webkit-animation: flyin 6s linear;
+    -moz-animation: flyin 6s linear;
+    -ms-animation: flyin 6s linear;
+    -o-animation: flyin 6s linear;
+    animation: flyin 6s linear;
 }
 
 .heading1 {
